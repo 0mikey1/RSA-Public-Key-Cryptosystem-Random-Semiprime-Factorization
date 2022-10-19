@@ -13,7 +13,7 @@ ty gets compromised.
 
 
 
-q1.py 
+**q1.py** 
 ________________
 
 q1.py implements an experiment to find the time complexity of finding prime factors p and q of a given semiprime number n so that 
@@ -22,7 +22,7 @@ the average time it takes for the program to factorize random semiprime integers
 
 
 
-q3.py 
+**q3.py** 
 ________________
 
 q3.py contains two functions: 
