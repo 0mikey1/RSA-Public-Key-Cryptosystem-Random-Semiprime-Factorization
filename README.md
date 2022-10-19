@@ -25,7 +25,7 @@ the average time it takes for the program to factorize random semiprime integers
 **q3.py** 
 ________________
 
-q3.py contains two functions: 
+**q3.py contains two functions:** 
 
 def rsa_message_sign(message: str, d: int, n: int) -> int:
 digest = hashlib.sha256(message.encode("ascii", "ignore"))
@@ -40,13 +40,13 @@ return expected_digest == digest
 (We assume that (n,e) is a valid public-key and (n,d) is its corresponding private-key of an RSA cryptosystem.)
     
     
-The function "rsa_message_sign" first finds the digest of given message using SHA-256 and then signs/encrypts it
-by raising it to the power of integer d mod n. 
+**The function "rsa_message_sign" first finds the digest of given message using SHA-256 and then signs/encrypts it
+by raising it to the power of integer d mod n.**
     
     
-The function "rsa_signature_verify" first decrypts the given signature by raising it to the power of e mod n. Then, it compares 
+**The function "rsa_signature_verify" first decrypts the given signature by raising it to the power of e mod n. Then, it compares 
 the result with the digest of given message using SHA-256. If the values are equal, the given signature is verified 
-for the given message. Otherwise, the signature is not verified.
+for the given message. Otherwise, the signature is not verified.**
     
     
     
