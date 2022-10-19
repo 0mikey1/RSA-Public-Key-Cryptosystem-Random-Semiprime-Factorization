@@ -44,7 +44,7 @@ The function "rsa_message_sign" first finds the digest of given message using SH
 by raising it to the power of integer d mod n. 
     
     
-The function "rsa_signature_verify" first decrypts the given signature by raising it to the power of . Then, it compares 
+The function "rsa_signature_verify" first decrypts the given signature by raising it to the power of e mod n. Then, it compares 
 the result with the digest of given message using SHA-256. If the values are equal, the given signature is verified 
 for the given message. Otherwise, the signature is not verified.
     
